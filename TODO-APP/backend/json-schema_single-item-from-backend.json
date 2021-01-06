@@ -1,0 +1,112 @@
+{
+  "title": "Task",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Unique task ID from database"
+    },
+    "created": {
+      "type": "timestamp",
+      "description": "Date and time (UTC) when the task was first created to database"
+    },
+    "modified": {
+      "type": "timestamp",
+      "description": "Date and time (UTC) when the task was last modified in database"
+    },
+    "title": {
+      "description": "Title of the task",
+      "type": "string"
+    },
+    "minutes": {
+      "description": "User defined working minutes of the task (if there are subtasks, this is 0",
+      "type": "integer",
+      "minimum": 0
+    },
+    "due": {
+      "description": "User defined ate when the task is due",
+      "type": "date"
+    },
+    "isCompleted": {
+      "description": "Boolean if task is completed (true / 0) or not (false / 0)",
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "isArchived": {
+      "description": "Boolean if task is archived (true / 0) or not (false / 0)",
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "subtasks": {
+      "description": "An array that consists of subtask objects",
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "properties": {
+          "subtask_id": {
+            "type": "integer",
+            "description": "Unique subtask ID from database"
+          },
+          "maintask_id": {
+            "type": "integer",
+            "description": "Unique maintask ID from database"
+          },
+          "title": {
+            "type": "string",
+            "description": "Subtask title"
+          },
+          "minutes": {
+            "description": "User defined working minutes of the subtask",
+            "type": "integer",
+            "minimum": 0
+          },
+          "isCompleted": {
+            "description": "Boolean if subtask is completed (true / 0) or not (false / 0)",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "meta": {
+      "description": "Metadata of task",
+      "type": "object",
+      "properties": {
+        "minutes_total": {
+          "type": "integer",
+          "description": "Total minutes of task (either the task.minutes or calculated subtask minutes)",
+          "minimum": 0
+        },
+        "minutes_done": {
+          "type": "integer",
+          "description": "How many minutes done from the task",
+          "minimum": 0
+        },
+        "minutes_left": {
+          "type": "integer",
+          "description": "How many minutes left to complete the task",
+          "minimum": 0
+        },
+        "subtasks_total": {
+          "description": "How many subtasks there is",
+          "type": "integer",
+          "minimum": 0
+        },
+        "subtasks_done": {
+          "description": "How many subtasks are completed",
+          "type": "integer",
+          "minimum": 0
+        },
+        "subtasks_left": {
+          "description": "How many subtasks are left to do",
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}
