@@ -1,4 +1,4 @@
-# my portfolio
+# This is a portfolio
 
 A portfolio to show what kind of spaghetti westerns I'm about
 
