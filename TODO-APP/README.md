@@ -5,3 +5,7 @@ This application was developed together with Lauri Pääjärvi as a full stack s
 This repository folder does not work as a standalone, since it's missing many parts of the full app. This is just to demonstrate my code writing skills and styles.
 
 Since it is a school project and had a strict deadline, we cannot edit the code within the Heroku app anymore so I have included some notes in the beginning of each file, also with a marker to show where the original code starts, as it is running in Heroku.
+
+Concerning frontend:
+
+We started to work on the project while still studying React basics and decided early on to use Material UI components instead of building our own ones. At some point we realized we should've probably fully implemented our own components to avoid getting stuck with limitations, obscurities or complexities within the predefined components. I'm looking forward for my next React/UI project to actually have more focus and control over what I'm trying to create.
