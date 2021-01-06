@@ -1,9 +1,9 @@
 # This is a portfolio
 
-A portfolio to show what kind of spaghetti westerns I'm about
+This is a programming portfolio to show what kind of spaghetti westerns I'm about.
 
-## about me
+## About me
 
-I am a creative and a responsible professional in project management. My background is in music business, but I’m currently studying a new degree in Tampere University of Applied Sciences in business information systems. My strengths are social skills, perceiving the big picture and being able to stay focused under pressure. I’m looking for a new beginning for my professional career from ICT field.
+A creative and a responsible professional in project management with background in music business. Currently studying a new degree in Tampere University of Applied Sciences in business information systems. My strengths are in social skills, perceiving the big picture and being able to stay focused under pressure. I’m looking for a new beginning for my professional career from ICT field.
 
 https://www.linkedin.com/in/elias-puukari-a633aa80/
