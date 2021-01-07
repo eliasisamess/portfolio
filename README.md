@@ -9,4 +9,4 @@ Creative and responsible project management professional, with background in mus
 https://www.linkedin.com/in/elias-puukari-a633aa80/
 
 ## ICT skills
-Basics in Java, Python, React and SQL. Pretty good with JavaScript/ES6+, Node.js, UX, web design and Photoshop. Professional in audio-, video- and music production. 
+Fundamentals in Java, Python, React, SQL, Shell, Git, Figma. Adequate in JavaScript/ES6+, Node.js, UX, HTML, CSS, Photoshop and Adobe Creative Cloud. Fluent with Office 365 and macOS counterparts. Professional skills in audio-, video- and music production. I have also used SAP and several accounting software, along with palkka.fi as an employer for 10 concurrent subordinates.
